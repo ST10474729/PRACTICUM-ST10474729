@@ -4,68 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <TextView
-        android:id="@+id/txtAppName"
+        android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Music.co Playlist App"
-        android:textColor="#F56788"
-        android:textSize="25dp"
+        android:text="Welcome to Music.Co!"
+    android:textSize="27dp"
+        android:textColor="#F34565"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.042" />
-
-    <TextView
-        android:id="@+id/txtStName"
-        android:layout_width="301dp"
-        android:layout_height="38dp"
-        android:text="ST10474729
-Nithilan.Padayachee"
-        android:textColor="#F4EFEF"
-        android:textSize="19dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.145"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147" />
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.065" />
 
     <Button
         android:id="@+id/btnStart"
-        android:layout_width="154dp"
-        android:layout_height="51dp"
-        android:backgroundTint="#F4EFEF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Start"
-        android:textColor="#020101"
-        android:textStyle="bold"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579" />
+        app:layout_constraintVertical_bias="0.547" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="250dp"
+        android:layout_height="29dp"
+        android:text="ST10474729
+Nithilan Padayachee"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
 
     <Button
         android:id="@+id/btnExit"
-        android:layout_width="145dp"
-        android:layout_height="51dp"
-        android:backgroundTint="#F4EFEF"
-        android:text="Exit"
-        android:textColor="#020101"
-        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="Exit App"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
+        app:layout_constraintVertical_bias="0.653" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
